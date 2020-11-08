@@ -1,0 +1,23 @@
+.image-slider {
+  width: 90%;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(https://images.pexels.com/photos/4244170/pexels-photo-4244170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: 100% 100%;
+  box-shadow: 1px 2px 5px white;
+  animation: slider 18s infinite linear;
+}
+@keyframes slider {
+  0% {
+    background-image: url(https://images.pexels.com/photos/4244170/pexels-photo-4244170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  }
+  33% {
+    background-image: url(https://images.pexels.com/photos/4078195/pexels-photo-4078195.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  }
+  66% {
+    background-image: url(https://images.pexels.com/photos/5739049/pexels-photo-5739049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  }
+}
